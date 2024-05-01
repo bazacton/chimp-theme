@@ -1,0 +1,47 @@
+/* 1170px to 980px or 768px */
+@media screen and (max-width: 1200px) {
+
+[class*="col-lg"], [class*="col-md"], [class*="col-sm"] [class*="col-xs"] {display:inline-block; vertical-align:top; margin:0 -4px 0 0; float:none; }
+.img-holder figure img{width: 100%;}
+.column-text{ padding: 115px 0 120px; }
+}
+
+/* 980px to 768px */
+/* If Required */
+@media screen and (max-width: 980px) {
+.cs-table .table-responsive { overflow: scroll; }
+.column-text p{color: #000;}
+.img-holder-left figure img{width:100%;}
+.table-holder{width: 100%; overflow-x: scroll;}
+.table-holder table{width: 800px;}
+.img-holder-right{ position: inherit; }
+.img-holder-left figure{ position: inherit; left:0;}
+.top-nav-inner{width: 100%;}
+.slicknav_menu {display: block;position: absolute;right: 15px;top: 18px;}
+.top-nav-inner ul {display: none;}
+.top-nav ul li{margin: 0; padding: 0; border: 0;}
+.top-nav .slicknav_nav{padding: 10px !important;}
+.top-nav{padding:0 15px;}
+.slicknav_nav{right: 0;}
+.top-nav .slicknav_nav a {padding: 7px; margin: 0 0 7px 0;}
+}
+/* 767px to 480px */
+@media screen and (max-width: 767px) {
+.cs-btn + .cs-btn{margin-top: 10px;} 
+}
+@media screen and (max-width: 600px) {
+
+}
+/* 480px to 320px */
+@media screen and (max-width: 480px) {
+.pricetable-holder.classic{width: 100%;}
+.main-heading-top h2{font-size: 30px; line-height: 40px;}
+.main-heading-top h2 span{font-size: 45px;}
+.heading-holder h2{ font-size: 19px !important; }
+.img-holder-right img{ width:100%; } 
+}
+@media screen and (max-width: 375px) {
+    
+}
+@media screen and (max-width: 320px) {
+}

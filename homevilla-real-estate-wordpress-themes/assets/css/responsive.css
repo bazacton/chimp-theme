@@ -1,0 +1,47 @@
+
+/* Responsive Media Queries*/
+@media screen and (max-width: 1170px) {
+	.cs-portfolio-item.left .cs-media{width: 62%;}
+	.cs-portfolio-item.left .cs-text {width: -webkit-calc(100% - 260px); width: -moz-calc(100% - 260px); width: -o-calc(100% -260px); width: calc(100% - 260px);}
+}
+
+@media screen and (max-width:980px){
+.slicknav_menu {display: block;}
+.landing-nave nav ul {display: none;}
+.cs-portfolio-item.left .cs-text {padding: 20px 0 0;}
+.image-frame.cs-img-frame figure, .cs-header-style, .cs-header-style .cs-media img, .cs-portfolio-item.left .cs-media, .cs-portfolio-item.left .cs-text, .cs-testimonials {width: 100%;}
+.landing-nave {position: relative; padding: 25px 0 0;}
+.slicknav_btn {background-color: #fff; display: block; font-size: 13px; color: #333; font-weight: 700;line-height: normal; padding: 5px 10px; text-decoration: none; text-transform: uppercase;}
+.slicknav_btn:after {display: block; content: ""; clear: both;}
+.slicknav_btn:hover, .slicknav_btn:focus {text-decoration: none; color: #333;}
+.landing-nave ul li {display: block; margin: 0;}
+.slicknav_nav {background-color: #fff; position: absolute; right: 0; top: 100%; width: 180px;}
+.landing-main-header .landing-nave li a {border-bottom: 1px solid #f1f1f1; color: #333; display: block; padding: 10px;}
+.landing-main-header.pinned .landing-nave li a {color: #333; display: block; padding: 10px;}
+.landing-nave .slicknav_icon {float: right; padding:5px 0 0; width: 20px;}
+.landing-nave .slicknav_menutxt ~ .slicknav_icon {margin: 0 0 0 20px;}
+.landing-nave .slicknav_icon-bar {background-color: #333; display: block; height:2px; margin: 0 0 2px;}
+.landing-nave .slicknav_menutxt {float: left; line-height: 20px;}
+
+}
+
+@media screen and (max-width:768px){
+.cs-portfolio-item.left .cs-text span {margin: 0 0 20px;}
+.cs-portfolio-item.left .cs-text h4 {padding-bottom: 75px;}
+.land-banner {min-height: 305px;}
+.cs-heading p {padding: 0 25px !important;}
+.video-holder {width: 100%; margin: 0 auto -40px;}
+.slicknav_menu {float: right;}
+.pinned .landing-nave {position: absolute; padding:25px 20px 0 0; width: 100%; right: 0; top:0;}
+.pinned .slicknav_nav {width: 100%;}
+.landing-main-header.pinned .landing-nave li a {padding:15px 20px;}
+.cs-icon-box.left {text-align: center;}
+.cs-portfolio-item.left .cs-text h5 {padding:40px 0 90px;}
+.cs-portfolio-item.default-preview {width: 100%; display: inline-block;}
+.has-boxes-bg [class*="col-"] {padding: 0 15px;}
+.wide {padding: 0 20px;}
+}
+
+@media screen and (max-width: 400px) {
+.cs-btn {display: block; margin: 0 0 10px;}
+}
